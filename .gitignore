@@ -61,3 +61,6 @@ dist/
 hash.json
 lib/
 wiki/
+
+# phpstorm project files
+.idea

@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react';
 import {
-  Editor,
   RichUtils,
   Entity,
 } from 'draft-js';
+import Editor from 'draft-js-plugins-editor';
 import isSoftNewlineEvent from 'draft-js/lib/isSoftNewlineEvent';
 
 import AddButton from './components/addbutton';
@@ -65,6 +65,7 @@ class MediumDraftEditor extends React.Component {
     handleKeyCommand: PropTypes.func,
     handleReturn: PropTypes.func,
     disableToolbar: PropTypes.bool,
+    plugins: PropTypes.array,
   };
 
   static defaultProps = {
@@ -95,6 +96,7 @@ class MediumDraftEditor extends React.Component {
       },
     ],
     disableToolbar: false,
+    plugins: [],
   };
 
   constructor(props) {
