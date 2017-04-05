@@ -1,5 +1,5 @@
 {
-  "name": "medium-draft",
+  "name": "medium-draft-plugins",
   "version": "0.4.1",
   "description": "A medium like rich text editor built upon draft-js with an emphasis on eliminating mouse usage by adding relevant keyboard shortcuts",
   "main": "lib/index.js",
@@ -72,7 +72,7 @@
     "webpack-dev-server": "^2.2.0"
   },
   "bugs": {
-    "url": "https://github.com/brijeshb42/medium-draft/issues"
+    "url": "https://github.com/oozywaters/medium-draft/issues"
   },
   "homepage": "http://bitwiser.in/medium-draft/"
 }
